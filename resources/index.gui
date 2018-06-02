@@ -1,0 +1,119 @@
+<svg viewport-fill="black">
+  <defs>
+    
+    <symbol id="FadeOutTitle">
+      <image x="74" y="25" width="200" height="200" href="icon2.png" />
+      <animate attributeName="opacity" begin="enable" from="1" to="0" dur="5" final="freeze" />
+    </symbol>
+    <symbol id="MainMenu">
+      <use href="#scrollview">
+        <use href="#scrollview-item" height="850">
+          <use href="#square-button" y="0" fill="fb-red" id="Button1" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText1"/>
+          </use>
+          <use href="#square-button" y="70" fill="fb-red" id="Button2" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText2"/>
+          </use>
+          <use href="#square-button" y="140" fill="fb-red" id="Button3" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText3"/>
+          </use>
+          <use href="#square-button" y="210" fill="fb-red" id="Button4" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText4"/>
+          </use>
+          <use href="#square-button" y="280" fill="fb-red" id="Button5" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText5"/>
+          </use>
+          <use href="#square-button" y="350" fill="fb-red" id="Button6" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText6"/>
+          </use>
+          <use href="#square-button" y="420" fill="fb-red" id="Button7" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText7"/>
+          </use>
+          <use href="#square-button" y="490" fill="fb-red" id="Button8" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText8"/>
+          </use>
+          <use href="#square-button" y="560" fill="fb-red" id="Button9" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText9"/>
+          </use>
+          <use href="#square-button" y="630" fill="fb-red" id="Button10" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText10"/>
+          </use>
+          <use href="#square-button" y="700" fill="fb-red" id="Button11" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText11"/>
+          </use>
+          <use href="#square-button" y="770" fill="fb-red" id="Button12" > 
+            <set href="#text" attributeName="text-buffer" to="Template" id="ButtonText12"/>
+          </use>
+        </use>      
+        <use href="#scrollview-item" height="100">
+          
+        </use>  
+      </use>
+      <animate attributeName="opacity" begin="enable" from="0" to="1" dur="2" final="freeze" />
+    </symbol>
+    
+    <symbol id="DailyVerse">
+      <image id="DailyVerseBackground" x="0" y="0" width="348" height="250" href="Abstract-Blue.png" />
+      <textarea id="DailyVerseText" text-length="400" x="5" y="5" width="100%-10" font-family="System-Regular" font-weight="bold" fill="white" font-size="24">
+        Loading...
+      </textarea>
+      <animate attributeName="opacity" begin="enable" from="0" to="1" dur="5" final="freeze" />
+    </symbol>
+    
+    <symbol id="RandomVerse">  
+      <textarea id="RandomVerseText" text-length="400" x="5" y="5" width="100%-10" font-family="System-Regular" font-weight="bold" fill="white" font-size="24">
+        Loading...
+      </textarea> 
+      <animate attributeName="opacity" begin="enable" from="0" to="1" dur="2" final="freeze" />
+    </symbol>
+    
+    <symbol id="BibleVerse">  
+      <use href="#scrollview">
+        <use href="#scrollview-item" height="800">
+          <textarea id="BibleVerseText" text-length="5000" x="5" y="5" width="100%-10" font-family="System-Regular" font-weight="bold" fill="white" font-size="24">
+            Loading...
+          </textarea> 
+        </use>
+        
+        <use href="#scrollview-item" height="100">
+          
+        </use>
+      </use>
+      <animate attributeName="opacity" begin="enable" from="0" to="1" dur="2" final="freeze" />
+    </symbol>
+    
+    <symbol id="YearlyBiblePlan">        
+      <use href="#scrollview">
+        <!-- Section 1 -->
+        <use href="#scrollview-item">
+          <rect width="100%" height="250" fill="black" />
+          <textarea id="YearlyBiblePlanText" pointer-events="visible" text-length="400" x="5" y="5" width="100%-10" font-family="System-Regular" font-weight="bold" text-anchor="middle" display-align="center" fill="red" font-size="56">
+            Loading Day...
+          </textarea>         
+        </use>
+       </use>
+    </symbol>    
+    
+  </defs>
+  
+  <svg width="100%" height="100%">
+    <use id="TitleScreenFadeOut" href="#FadeOutTitle" width="100%" height="100%" />
+  </svg>
+  <svg width="100%" height="100%">
+    <use id="MainMenuScreen" href="#MainMenu" width="100%" height="100%" />
+  </svg>
+  <svg width="100%" height="100%">
+    <use id="DailyVerseScreen" href="#DailyVerse" width="100%" height="100%" />
+  </svg>
+  <svg width="100%" height="100%">
+    <use id="RandomVerseScreen" href="#RandomVerse" width="100%" height="100%" />
+  </svg>
+  <svg width="100%" height="100%">
+    <use id="BibleVerseScreen" href="#BibleVerse" width="100%" height="100%" />
+  </svg>
+  <svg width="100%" height="100%">
+    <use id="YearlyBiblePlanScreen" href="#YearlyBiblePlan" width="100%" height="100%" />
+  </svg>
+  
+  
+</svg>

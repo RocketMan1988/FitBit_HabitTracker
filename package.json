@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "eccbdc95-7866-468d-a627-8a779c215cc8",
+    "appType": "app",
+    "appDisplayName": "Bible",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Bible"
+      }
+    }
+  }
+}
